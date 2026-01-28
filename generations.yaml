@@ -1,0 +1,33 @@
+references:
+  - "https://en.wikipedia.org/wiki/Nissan_Armada"
+
+generations:
+  - name: "First Generation"
+    start_year: 2004
+    end_year: 2007
+    description: "First generation Nissan Armada (TA60), originally badged as Pathfinder Armada. Built on the Nissan F-Alpha platform shared with the Nissan Titan. Powered by a 5.6L VK56DE V8 engine mated to a 5-speed automatic transmission."
+    platform: "Nissan F-Alpha platform"
+
+  - name: "First Generation (2008 Facelift)"
+    start_year: 2008
+    end_year: 2015
+    description: "Facelifted first generation Armada introduced for the 2008 model year. Updated VK56DE V8 engine with increased power and improved towing capacity. New front and rear fascia, updated interior, 8-inch infotainment screen, and electronic third-row seats."
+    platform: "Nissan F-Alpha platform"
+
+  - name: "Second Generation"
+    start_year: 2017
+    end_year: 2020
+    description: "Second generation Nissan Armada (Y62) based on the Nissan Patrol platform. Powered by a 5.6L VK56VD Endurance V8 engine producing 390 hp and 394 lb-ft of torque, paired with a 7-speed automatic transmission. Offered in SV, SL, and Platinum trims."
+    platform: "Y62"
+
+  - name: "Second Generation (2021 Facelift)"
+    start_year: 2021
+    end_year: 2024
+    description: "Facelifted second generation Armada revealed in December 2020. Features redesigned front end with larger grille and C-shaped LED headlights, updated taillights, new center console with 12.3-inch infotainment screen, wireless Apple CarPlay and Android Auto, and standard Safety Shield 360."
+    platform: "Y62"
+
+  - name: "Third Generation"
+    start_year: 2025
+    end_year: null
+    description: "Third generation Nissan Armada (Y63) unveiled September 3, 2024. Features a 3.5-liter twin-turbocharged V6 producing 425 hp and 516 lb-ft of torque paired with a 9-speed automatic transmission. Available in SV, SL, Platinum, Pro-4X, and Platinum Reserve trims. Includes ProPilot Assist 2.1 hands-free driving capability."
+    platform: "Y63"
