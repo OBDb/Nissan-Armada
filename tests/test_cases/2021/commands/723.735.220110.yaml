@@ -1,0 +1,5 @@
+command_id: 723.735.220110
+test_cases:
+- expected_values:
+    ARMADA_STEER_ANGLE: 7.1
+  response: '735056201100047'
