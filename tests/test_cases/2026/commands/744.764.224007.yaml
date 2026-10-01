@@ -1,0 +1,14 @@
+command_id: 744.764.224007
+test_cases:
+- expected_values:
+    ARMADA_AC_STATUS: 0
+  response: '7640762400700000000'
+- expected_values:
+    ARMADA_AC_STATUS: 0
+  response: '7640762400700640040'
+- expected_values:
+    ARMADA_AC_STATUS: 34
+  response: '7640762400722040600'
+- expected_values:
+    ARMADA_AC_STATUS: 131
+  response: '7640762400783040640'
