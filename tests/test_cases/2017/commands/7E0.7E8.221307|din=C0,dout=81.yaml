@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.221307|din=C0,dout=81
+test_cases:
+- expected_values:
+    ARMADA_AC_COMP: 0
+    ARMADA_IDLE_CTRL_MODE: 0
+  response: '7E8056213070042'
+- expected_values:
+    ARMADA_AC_COMP: 1
+    ARMADA_IDLE_CTRL_MODE: 0
+  response: '7E8056213074042'
