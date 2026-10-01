@@ -1,0 +1,14 @@
+command_id: 743.763.220E01|fc=1
+test_cases:
+- expected_values:
+    ARMADA_ODO: 1850
+  response: 76306620E0100073A
+- expected_values:
+    ARMADA_ODO: 2047
+  response: 76306620E010007FF
+- expected_values:
+    ARMADA_ODO: 2048
+  response: '76306620E01000800'
+- expected_values:
+    ARMADA_ODO: 23808
+  response: 76306620E01005D00
