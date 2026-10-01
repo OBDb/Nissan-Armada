@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221139|din=C0,dout=81
+test_cases:
+- expected_values:
+    ARMADA_CAM_DUTY_B2: 0
+  response: '7E80462113900'
+- expected_values:
+    ARMADA_CAM_DUTY_B2: 28.51562
+  response: '7E80462113949'
+- expected_values:
+    ARMADA_CAM_DUTY_B2: 29.6875
+  response: 7E8046211394C
+- expected_values:
+    ARMADA_CAM_DUTY_B2: 35.54688
+  response: 7E8046211395B
