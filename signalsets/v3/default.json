@@ -117,15 +117,15 @@
   "signals": [
     {"id": "ARMADA_TPW_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "psi" }, "name": "Rear left tire pressure, warning"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1124"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1124"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "ARMADA_AF_ADJ_B2", "path": "Fuel", "fmt": { "len": 8, "max": 155, "min": -100, "add": -100, "unit": "percent" }, "name": "Air/fuel ratio adjustment, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1137"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1137"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "ARMADA_CAM_ADV_B2", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Intake camshaft advance, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1139"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1139"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "ARMADA_CAM_DUTY_B2", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Intake valve timing solenoid duty, bank 2"}
   ]},
@@ -137,12 +137,12 @@
   "signals": [
     {"id": "ARMADA_MAF_V_B2", "path": "Engine", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Mass air flow sensor voltage, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1307"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1307"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "ARMADA_AC_COMP",        "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Air conditioning compressor"},
     {"id": "ARMADA_IDLE_CTRL_MODE", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Idle control mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1313"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1313"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "ARMADA_COOLING_FAN_LOW",  "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan low"},
     {"id": "ARMADA_COOLING_FAN_HIGH", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan high"}
