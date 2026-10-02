@@ -4,6 +4,9 @@ test_cases:
     ARMADA_AF_ADJ_B2: -8
   response: 7E8046211245C
 - expected_values:
+    ARMADA_AF_ADJ_B2: -2
+  response: '7E80462112462'
+- expected_values:
     ARMADA_AF_ADJ_B2: -1
   response: '7E80462112463'
 - expected_values:

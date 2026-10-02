@@ -8,3 +8,7 @@ test_cases:
     ARMADA_AC_COMP: 1
     ARMADA_IDLE_CTRL_MODE: 0
   response: '7E8056213074042'
+- expected_values:
+    ARMADA_AC_COMP: 1
+    ARMADA_IDLE_CTRL_MODE: 1
+  response: '7E8056213074242'
