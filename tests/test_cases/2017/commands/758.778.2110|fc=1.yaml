@@ -1,6 +1,15 @@
 command_id: 758.778.2110|fc=1
 test_cases:
 - expected_values:
+    ARMADA_WHL_1_P: 30.5
+    ARMADA_WHL_2_P: 33
+    ARMADA_WHL_3_P: 33.75
+    ARMADA_WHL_4_P: 34.25
+  response: |-
+    778100F611000007A84
+    778218789F85500C5C5
+    77822C5C5FFFFFFFFFF
+- expected_values:
     ARMADA_WHL_1_P: 31.25
     ARMADA_WHL_2_P: 33.25
     ARMADA_WHL_3_P: 34.25
