@@ -1,0 +1,4 @@
+model_year: 2013
+unsupported_commands_by_ecu:
+  "7E0":
+  - 7E0.7E8.221307|din=C0,dout=81:ARMADA_AC_COMP,ARMADA_IDLE_CTRL_MODE
