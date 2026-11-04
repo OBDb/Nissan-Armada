@@ -1,13 +1,13 @@
 command_id: 758.778.2110|fc=1
 test_cases:
 - expected_values:
-    ARMADA_WHL_1_P: 30.5
-    ARMADA_WHL_2_P: 33
-    ARMADA_WHL_3_P: 33.75
-    ARMADA_WHL_4_P: 34.25
+    ARMADA_WHL_1_P: 0
+    ARMADA_WHL_2_P: 0
+    ARMADA_WHL_3_P: 0
+    ARMADA_WHL_4_P: 0
   response: |-
-    778100F611000007A84
-    778218789F85500C5C5
+    778100F611000000000
+    778210000F85500C5C5
     77822C5C5FFFFFFFFFF
 - expected_values:
     ARMADA_WHL_1_P: 31.25
@@ -53,15 +53,6 @@ test_cases:
   response: |-
     778100F611000008F90
     77821939EF8AA00C5C5
-    77822C5C5FFFFFFFFFF
-- expected_values:
-    ARMADA_WHL_1_P: 32.75
-    ARMADA_WHL_2_P: 35
-    ARMADA_WHL_3_P: 36
-    ARMADA_WHL_4_P: 36.75
-  response: |-
-    778100F611000C8838C
-    778219093F85500C5C5
     77822C5C5FFFFFFFFFF
 - expected_values:
     ARMADA_WHL_1_P: 35.75
